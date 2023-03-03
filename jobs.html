@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>ALL Job's</title>
+	
+    <!--custom css file link -->
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.1/css/font-awesome.min.css">
+
+
+</head>
+<body>
+
+<!--header section starts-->
+<header class="header">
+	<section class="flex">
+
+	<div id="menu-btn" class="fas fa-bars-staggered"></div>
+	
+	<a href="home.html" class="logo"><i class="fa-sharp fa-solid fa-globe"></i>Job's-Corner.</a>
+		<nav class="navbar">
+			<a href="home.html">Home</a>
+			<a href="companies.html">Companies</a>
+			<a href="learn.html">Learn & Upskill</a>
+			<a href="jobs.html">ALL Job's</a>
+			<a href="about.html">About Us</a>
+			<a href="signin.html">Sign In</a>
+			<a href="signup.html">Sign Up</a>
+			<a href="Contact.html">Contact Us</a>
+		</nav>
+<a href="#" class="btn" style="margin-top: 0;">Post Job</a>
+
+</section>
+
+</header>
+
+<!--header section end here-->
+
+<!--job filter section start here-->
+<section class="jobs-filter">
+	<h1 class="heading">Filter Job's</h1>
+	<form action="" method="post">
+	<div class="flex">
+		<div class="box">
+			<p> Job Title<span>*</span></p>
+			<input type="text" name="title" placeholder="Keyword, Category or Companies" required maxlength="20" class="input">
+
+		</div>
+		<div class="box">
+			<p>Job Location</p>
+			<input type="text" name="location" placeholder="Locality, City or Country" required maxlength="50" class="input">	
+		</div>
+	</div>
+	
+	<div class="dropdown-container">
+		<div class="dropdown">
+			<input type="text" readonly placeholder="Date Posted" name="date" maxlength="20" class="output">
+			<div class="lists">
+				<p class="items">Todays</p>
+				<p class="items">3 Days Ago</p>
+				<p class="items">7 Days Ago</p>
+				<p class="items">10 Days Ago</p>
+				<p class="items">15 Days Ago</p>
+				<p class="items">30 Days Ago</p>
+
+			</div>
+		</div>
+
+		<div class="dropdown">
+			<input type="text" readonly placeholder="Estimated" name="date" maxlength="20" class="output">
+			<div class="lists">
+				<p class="items">1K - 5K</p>
+				<p class="items">5K - 10K</p>
+				<p class="items">10K - 20K</p>
+				<p class="items">20K - 30K</p>
+				<p class="items">30K - 40K</p>
+				<p class="items">40K - 50K</p>
+				<p class="items">50K - 1Lakh</p>
+				<p class="items">1Lakh - 10Lakh</p>
+				<p class="items">10Lakh - 20Lakh</p>
+				<p class="items">20Lakh - 50Lakh</p>
+				<p class="items">50Lakh - 1Cr</p>
+				<p class="items">1Cr - 5Cr</p>
+				<p class="items">5Cr - 10Cr</p>
+
+			</div>
+		</div>
+
+	<div class="dropdown">
+			<input type="text" readonly placeholder="Job Type" name="date" maxlength="20" class="output">
+			<div class="lists">
+				<p class="items">Full-Time</p>
+				<p class="items">Part-Time</p>
+				<p class="items">Internship</p>
+				<p class="items">Contract</p>
+				<p class="items">Temporary</p>
+				<p class="items">Fresher</p>
+
+			</div>
+		</div>
+
+		<div class="dropdown">
+			<input type="text" readonly placeholder="Jobs By Qualification" name="date" maxlength="20" class="output">
+			<div class="lists">
+				<p class="items">8th/JSC Pass</p>
+				<p class="items">SSC Pass Jobs</p>
+				<p class="items">HSC Pass Jobs</p>
+				<p class="items">Diploma Jobs</p>
+				<p class="items">MBA Jobs</p>
+				<p class="items">BA Pass Jobs</p>
+				<p class="items">Graduate Jobs </p>
+
+			</div>
+		</div>
+
+		<div class="dropdown">
+			<input type="text" readonly placeholder="Jobs By Division" name="date" maxlength="20" class="output">
+			<div class="lists">
+				<p class="items">Dhaka</p>
+				<p class="items">Mymensingh</p>
+				<p class="items">Chittagong</p>
+				<p class="items">Sylhet</p>
+				<p class="items">Comilla</p>
+				<p class="items">Rajshahi</p>
+				<p class="items">Jessore</p>
+				<p class="items">Rangpur</p>
+
+			</div>
+		</div>
+	</div>
+</form>
+</section>
+
+
+
+
+<!--job filter section end here-->
+
+
+
+
+<!--all jobs section start here-->
+<section class="jobs-container">
+	<h1 class="heading"> ALL Job's</h1>
+	<div class="box-container">
+		<div class="box">
+		<div class="company">
+			<img src="images/bkash.png" alt="">
+			<div>
+				<h3>Finance Corporation</h3>
+				<p> Today</p>
+			</div>
+			</div>
+				<h3 class="job-title">Senior Web Developer</h3>
+				<p class="location"><i class="fas fa-map-market-alt"></i><span>Dhaka,Bangladesh</span></p>
+				<div class="tags">
+					<p> <i class="fa-solid fa-bangladeshi-taka-sign"></i> <span>10k - 25k </p>
+						<p><i class="fas fa-briefcase"></i><span>Part-Time</span></p>
+						<p><i class="fas fa-clock"></i><span>Full-Time</span></p>
+				</div>
+				<div class="flex-btn">
+					<a href="jobs.html" class="btn">View Details</a>
+					<button type="submit" class="far fa-heart"></button>
+				</div>
+			</div>
+
+			<div class="box">
+		<div class="company">
+			<img src="images/uniliver.png" alt="">
+			<div>
+				<h3>Consumer goods</h3>
+				<p> 5 Days Ago</p>
+			</div>
+			</div>
+				<h3 class="job-title">Marketing Director</h3>
+				<p class="location"><i class="fas fa-map-market-alt"></i><span>Dhaka,Bangladesh</span></p>
+				<div class="tags">
+					<p> <i class="fa-solid fa-bangladeshi-taka-sign"></i> <span>32k - 42k </p>
+						<p><i class="fas fa-briefcase"></i><span>Part-Time</span></p>
+						<p><i class="fas fa-clock"></i><span>Full-Time</span></p>
+				</div>
+				<div class="flex-btn">
+					<a href="jobs.html" class="btn">View Details</a>
+					<button type="submit" class="far fa-heart"></button>
+				</div>
+			</div>
+
+			<div class="box">
+		<div class="company">
+			<img src="images/grameenphone.png" alt="">
+			<div>
+				<h3>Telecommunication Services</h3>
+				<p>3 Days Ago</p>
+			</div>
+			</div>
+				<h3 class="job-title">Head of External Communications</h3>
+				<p class="location"><i class="fas fa-map-market-alt"></i><span>Dhaka,Bangladesh</span></p>
+				<div class="tags">
+					<p> <i class="fa-solid fa-bangladeshi-taka-sign"></i> <span>10k - 25k </p>
+						<p><i class="fas fa-briefcase"></i><span>Part-Time</span></p>
+						<p><i class="fas fa-clock"></i><span>Full-Time</span></p>
+				</div>
+				<div class="flex-btn">
+					<a href="jobs.html" class="btn">View Details</a>
+					<button type="submit" class="far fa-heart"></button>
+				</div>
+			</div>
+
+			<div class="box">
+		<div class="company">
+			<img src="images/beximco.png" alt="">
+			<div>
+				<h3>Pharmaceuticals Ltd</h3>
+				<p>2 Days Ago</p>
+			</div>
+			</div>
+				<h3 class="job-title">Pharma Jobs</h3>
+				<p class="location"><i class="fas fa-map-market-alt"></i><span>Dhaka,Bangladesh</span></p>
+				<div class="tags">
+					<p> <i class="fa-solid fa-bangladeshi-taka-sign"></i> <span>22k - 38k </p>
+						<p><i class="fas fa-briefcase"></i><span>Part-Time</span></p>
+						<p><i class="fas fa-clock"></i><span>Full-Time</span></p>
+				</div>
+				<div class="flex-btn">
+					<a href="jobs.html" class="btn">View Details</a>
+					<button type="submit" class="far fa-heart"></button>
+				</div>
+			</div>
+
+			<div class="box">
+		<div class="company">
+			<img src="images/huawei.png" alt="">
+			<div>
+				<h3>Huawei Technologies</h3>
+				<p>3 Days Ago</p>
+			</div>
+			</div>
+				<h3 class="job-title">Senior Cloud Engineer</h3>
+				<p class="location"><i class="fas fa-map-market-alt"></i><span>Dhaka,Bangladesh</span></p>
+				<div class="tags">
+					<p> <i class="fa-solid fa-bangladeshi-taka-sign"></i> <span>28k - 46k </p>
+						<p><i class="fas fa-briefcase"></i><span>Part-Time</span></p>
+						<p><i class="fas fa-clock"></i><span>Full-Time</span></p>
+				</div>
+				<div class="flex-btn">
+					<a href="jobs.html" class="btn">View Details</a>
+					<button type="submit" class="far fa-heart"></button>
+				</div>
+			</div>
+
+			<div class="box">
+		<div class="company">
+			<img src="images/kfc.png" alt="">
+			<div>
+				<h3>Kfc Bangladesh</h3>
+				<p> Today</p>
+			</div>
+			</div>
+				<h3 class="job-title">Desk Manager</h3>
+				<p class="location"><i class="fas fa-map-market-alt"></i><span>Dhaka,Bangladesh</span></p>
+				<div class="tags">
+					<p> <i class="fa-solid fa-bangladeshi-taka-sign"></i> <span>18k - 32k </p>
+						<p><i class="fas fa-briefcase"></i><span>Part-Time</span></p>
+						<p><i class="fas fa-clock"></i><span>Full-Time</span></p>
+				</div>
+				<div class="flex-btn">
+					<a href="jobs.html" class="btn">View Details</a>
+					<button type="submit" class="far fa-heart"></button>
+				</div>
+			</div>
+
+			<div class="box">
+		<div class="company">
+			<img src="images/agrani.png" alt="">
+			<div>
+				<h3>Finance Corporation</h3>
+				<p>7 Days Ago</p>
+			</div>
+			</div>
+				<h3 class="job-title">Branch Manager</h3>
+				<p class="location"><i class="fas fa-map-market-alt"></i><span>Dhaka,Bangladesh</span></p>
+				<div class="tags">
+					<p> <i class="fa-solid fa-bangladeshi-taka-sign"></i> <span>32k - 42k </p>
+						<p><i class="fas fa-briefcase"></i><span>Part-Time</span></p>
+						<p><i class="fas fa-clock"></i><span>Full-Time</span></p>
+				</div>
+				<div class="flex-btn">
+					<a href="jobs.html" class="btn">View Details</a>
+					<button type="submit" class="far fa-heart"></button>
+				</div>
+			</div>
+
+			<div class="box">
+		<div class="company">
+			<img src="images/nu.png" alt="">
+			<div>
+				<h3>National University of Bangladesh</h3>
+				<p>2 Days Ago</p>
+			</div>
+			</div>
+				<h3 class="job-title">Banking And Finance</h3>
+				<p class="location"><i class="fas fa-map-market-alt"></i><span>Dhaka,Bangladesh</span></p>
+				<div class="tags">
+					<p> <i class="fa-solid fa-bangladeshi-taka-sign"></i> <span>42k - 62k </p>
+						<p><i class="fas fa-briefcase"></i><span>Part-Time</span></p>
+						<p><i class="fas fa-clock"></i><span>Full-Time</span></p>
+				</div>
+				<div class="flex-btn">
+					<a href="jobs.html" class="btn">View Details</a>
+					<button type="submit" class="far fa-heart"></button>
+				</div>
+			</div>
+
+<!--Pagination section start here-->
+
+		
+	</div>
+    <nav class="paginate" aria-label="Page navigation">
+        <ul class="pagination">
+            <li class="page-item">
+                <a href="#" class="page-link" aria-label="Previous">
+                    <span aria-hidden="true">«</span>
+                </a>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">4</a></li>
+            <li class="page-item"><a class="page-link" href="#">5</a></li>
+            <li class="page-item">
+                <a href="#" class="page-link" aria-label="Next">
+                    <span aria-hidden="true">»</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+	</div>
+</section>
+
+
+
+<!--all jobs section end here-->
+
+
+
+
+<!--footer section start here-->
+
+<footer class="footer">
+	<section class="grid">
+		<div class="box">
+			<h3> Quick Links</h3>
+			<a href="home.html"> <i class="fas fa-angle-right"></i> Home</a>
+			<a href="companies.html"> <i class="fas fa-angle-right"></i> Companies</a>
+			<a href="learn.html"> <i class="fas fa-angle-right"></i> Learn & Upskill</a>
+			<a href="about.html"> <i class="fas fa-angle-right"></i> About</a>
+			<a href="contact.html"> <i class="fas fa-angle-right"></i> Contact</a>
+
+		</div>
+
+		<div class="box">
+			<h3> Extra Links</h3>
+			<a href="privacy.html"> <i class="fas fa-angle-right"></i> Privacy policy</a>
+			<a href="terms.html"> <i class="fas fa-angle-right"></i> Terms & conditions</a>
+			<a href="job.html"> <i class="fas fa-angle-right"></i> Post a Job</a>
+			<a href="faq.html"> <i class="fas fa-angle-right"></i> FAQ</a>
+			<a href="feedback.html"> <i class="fas fa-angle-right"></i> Feedback</a>
+
+		</div>
+		<div class="box">
+			<h3>Follow Us</h3>
+			<a href="#"><i class="fab fa-facebook"></i> Facebook</a>
+			<a href="#"><i class="fab fa-twitter"></i> Twitter</a>
+			<a href="#"><i class="fab fa-instagram"></i> Instagram</a>
+			<a href="#"><i class="fab fa-linkedin"></i> Linkedin</a>
+			<a href="#"><i class="fab fa-youtube"></i> Youtube</a>
+		</div>
+
+</section>
+<div class="credit">&copy; Copyright @CBST by <span>Team 13</span>!</div>
+
+
+
+</footer>
+<!--Footer section end here-->
+
+
+
+<!--custom js file link-->
+<script>
+	
+let doropdown_items = document.querySelectorAll('.jobs-filter form .dropdown-container .dropdown .lists .items');
+
+doropdown_items.forEach(items =>{
+	items.onclick = () =>{
+		items_parent = items.parentElement.parentElement;
+		let output = items_parent.querySelector('.output');
+		output.value = items.innerText;
+	}
+});
+
+</script>
+
+
+
+</body>
+</html>
